@@ -1,0 +1,33 @@
+.navbar-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+    height: 7rem;
+
+    & .logo-box {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        gap: .5rem;
+
+        & svg {
+            width: 4rem;
+            fill: #595151;
+        }
+
+        & span {
+            font-family: "SensaBrush", Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            font-size: 3.5rem;
+            color: #595151;
+        }
+    }
+
+    & .menu-bars-box {
+        & svg {
+            width: 3.3rem;
+            fill: #595151;
+        }
+    }
+}

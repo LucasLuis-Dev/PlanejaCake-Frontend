@@ -1,0 +1,38 @@
+.main-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: calc(100vh - 7rem);
+    padding: 0% 5%;
+    gap: 3rem;
+
+
+    & .left-box {
+        display: flex;
+        padding-top: 2rem;
+        gap: 1rem;
+        flex-direction: column;
+
+        & h1 {
+            font-size: 3.7rem;
+            line-height: 5.5rem;
+            color: #595151;
+        }
+
+        & p {
+            color: rgb(150, 148, 148);
+        }
+
+        & button {
+            margin-top: 1.5rem;
+        }
+    }
+
+    & .right-box {
+        display: flex;
+
+        & img {
+            width: 100%;
+        }
+    }
+}

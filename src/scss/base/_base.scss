@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.btn {
+    min-width: 4rem;
+    min-height: 2rem;
+    padding: 1rem 2rem;
+    width: fit-content;
+    border: none;
+    border-radius: 20rem;
+    font-weight: 600;
+    font-size: 1.7rem;
+    text-align: center;
+
+    &-primary {
+        background-color: #ff8b77;
+        color: white;
+    }
+}
