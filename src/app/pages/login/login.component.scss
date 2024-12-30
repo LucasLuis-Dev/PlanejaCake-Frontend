@@ -1,0 +1,18 @@
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 5%;
+    height: calc(100vh - 7rem);
+
+    & .login-ilustration {
+        width: 100%;
+    }
+
+    & .btn {
+        & img {
+            width: 3rem;
+        }
+    }
+}
